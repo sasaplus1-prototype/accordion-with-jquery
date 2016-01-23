@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>accordion with jQuery</title>
+    <style>
+      ul {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <p>
+          <a class="js-accordion" data-target=".js-accordion-content-1" href="javascript:void 0">accordion1</a>
+        </p>
+        <ul class="js-accordion-content-1">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          <a class="js-accordion" data-target=".js-accordion-content-2" href="javascript:void 0">accordion2</a>
+        </p>
+        <ul class="js-accordion-content-2" style="display: none">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          <a class="js-accordion" data-target=".js-accordion-content-3" href="javascript:void 0">accordion3</a>
+        </p>
+        <ul class="js-accordion-content-3" style="display: none">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+    </div>
+    <script src="jquery-2.2.0.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
